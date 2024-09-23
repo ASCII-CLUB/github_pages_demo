@@ -1,0 +1,52 @@
+body {
+    background-color: white;
+    margin: 50px;
+}
+
+h1 {
+    font-size: 7vw;
+    margin-bottom: -3px;
+}
+
+p {
+    font-size: 4vw;
+    margin-top: -5px;
+}
+
+.box {
+    background-color: #2F3C7E;
+    border-radius: 10px;
+    border-color: #2F3C7E;
+    color: white;
+    padding: 20px;
+}
+
+.border {
+    border: 10px solid;
+    border-color: black;
+    border-radius: 5px;
+    width: 40vw; 
+    height: auto; 
+}
+
+.columns {
+    flex-direction: column;
+    display: flex;
+    width: fit-content;
+}
+
+.column {
+    flex: 70%;
+    margin: 10px;
+}
+
+.mainFont {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (min-width: 768px) {
+    .columns {
+        flex-direction: row; 
+        align-items: flex-end; 
+    }
+}
